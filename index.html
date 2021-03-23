@@ -6,22 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script id="rrApi-jssdk" async="" src="//cdn.retailrocket.ru/content/javascript/tracking.js"></script>
   <script type="text/javascript">
-    var rrPartnerId = "5d70e0bd97a5250fa4817c00";
+    var rrPartnerId = "6059da4297a5252c7863ac00";
     var rrApi = {};
     var rrApiOnReady = rrApiOnReady || [];
     rrApi.addToBasket = rrApi.order = rrApi.categoryView = rrApi.view =
-    rrApi.recomMouseDown = rrApi.recomAddToCart = function() {};
+        rrApi.recomMouseDown = rrApi.recomAddToCart = function() {};
     (function(d) {
-    var ref = d.getElementsByTagName('script')[0];
-    var apiJs, apiJsId = 'rrApi-jssdk';
-    if (d.getElementById(apiJsId)) return;
-    apiJs = d.createElement('script');
-    apiJs.id = apiJsId;
-    apiJs.async = true;
-    apiJs.src = "//s3-eu-west-1.amazonaws.com/rrstatic.retailrocket.net/rr10160/tracking.js";
-    ref.parentNode.insertBefore(apiJs, ref);
+        var ref = d.getElementsByTagName('script')[0];
+        var apiJs, apiJsId = 'rrApi-jssdk';
+        if (d.getElementById(apiJsId)) return;
+        apiJs = d.createElement('script');
+        apiJs.id = apiJsId;
+        apiJs.async = true;
+        apiJs.src = "//cdn.retailrocket.ru/content/javascript/tracking.js";
+        ref.parentNode.insertBefore(apiJs, ref);
     }(document));
-    </script>
+ </script>
   <title>Тестовая страничка</title>
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
