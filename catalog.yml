@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2018-09-25 17:22">
+    <shop>
+        <categories>
+            <category id="1278">Одежда</category>
+            <category id="1293" parentId="1278">Куртки</category>
+            <category id="1345" parentId="1278">Брюки</category>
+        </categories>
+        <offers>
+            <offer id="1" available="true">
+                <url>http://example.com/product/id1637</url>
+                <price>250</price>
+                <oldprice>250</oldprice>
+                <categoryId>1293</categoryId>
+                <picture>https://gallery.retailrocket.net/5c48250597a52820908821c9/1.jpg</picture>
+                <name>Куртка 1</name>
+                <param name="Сезон">Осень</param>
+                <vendor>Puma</vendor>
+            </offer>
+            <offer id="2" available="false">
+                <url>http://example.com/product/id1638</url>
+                <price>98</price>
+                <oldprice>100</oldprice>
+                <categoryId>1293</categoryId>
+                <picture>https://gallery.retailrocket.net/5c48250597a52820908821c9/2.jpg</picture>
+                <name>Куртка 2</name>
+                <param name="Сезон">Зима</param>
+                <vendor>Puma</vendor>
+            </offer>
+            <offer id="3" available="true">
+                <url>http://example.com/product/id1637</url>
+                <price>350</price>
+                <oldprice>500</oldprice>
+                <categoryId>1293</categoryId>
+                <picture>https://gallery.retailrocket.net/5c48250597a52820908821c9/3.jpg</picture>
+                <name>Куртка 3</name>
+                <param name="Сезон">Осень</param>
+            </offer>
+            <offer id="4" available="true">
+                <url>http://example.com/product/id1638</url>
+                <price>480</price>
+                <oldprice>500</oldprice>
+                <categoryId>1293</categoryId>
+                <picture>https://gallery.retailrocket.net/5c48250597a52820908821c9/4.jpg</picture>
+                <name>Куртка 4</name>
+                <param name="Сезон">Осень</param>
+                <vendor>Puma</vendor>
+            </offer>
+            <offer id="5" available="true">
+                <url>http://example.com/product/id1637</url>
+                <price>100</price>
+                <oldprice>100</oldprice>
+                <categoryId>1293</categoryId>
+                <name>Куртка 5</name>
+                <param name="Сезон">Осень</param>
+                <vendor>Puma</vendor>
+            </offer>
+            <offer id="6" available="false">
+                <url>http://example.com/product/id1638</url>
+                <price>350</price>
+                <oldprice>500</oldprice>
+                <categoryId>1345</categoryId>
+                <picture>https://gallery.retailrocket.net/5c48250597a52820908821c9/6.jpg</picture>
+                <name>Брюки 6</name>
+                <param name="Сезон">Осень</param>
+                <vendor>Puma</vendor>
+            </offer>
+            <offer id="7" available="true">
+                <url>http://example.com/product/id1637</url>
+                <price>500</price>
+                <oldprice>600</oldprice>
+                <categoryId>1345</categoryId>
+                <picture>https://gallery.retailrocket.net/5c48250597a52820908821c9/7.jpg</picture>
+                <name>Брюки 7</name>
+                <param name="Сезон">Осень</param>
+                <vendor>Puma</vendor>
+            </offer>
+            <offer id="8" available="true">
+                <url>http://example.com/product/id1638</url>
+                <price>20</price>
+                <oldprice>30</oldprice>
+                <categoryId>1345</categoryId>
+                <picture>https://gallery.retailrocket.net/5c48250597a52820908821c9/8.jpg</picture>
+                <name>Брюки 8</name>
+                <param name="Сезон">Лето</param>
+                <vendor>Puma</vendor>
+            </offer>
+            <offer id="9" available="true">
+                <url>http://example.com/product/id1637</url>
+                <price>700</price>
+                <oldprice>700</oldprice>
+                <categoryId>1345</categoryId>
+                <picture>https://gallery.retailrocket.net/5c48250597a52820908821c9/9.jpg</picture>
+                <name>Брюки 9</name>
+                <param name="Сезон">Зима</param>
+                <vendor>Puma</vendor>
+            </offer>
+            <offer id="10" available="true">
+                <url>http://example.com/product/id1638</url>
+                <price>390</price>
+                <oldprice>400</oldprice>
+                <categoryId>1345</categoryId>
+                <picture>https://gallery.retailrocket.net/5c48250597a52820908821c9/10.jpg</picture>
+                <name>Брюки 10</name>
+                <param name="Сезон">Зима</param>
+                <vendor>Puma</vendor>
+            </offer>            
+        </offers>
+    </shop>
+</yml_catalog>
