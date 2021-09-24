@@ -31,6 +31,14 @@
 </head>
 
 <body>
+  <script type="text/javascript">
+    (window["rrApiOnReady"] = window["rrApiOnReady"] || [])
+        .push(function () {
+            try {
+                rrApi.view(1);
+            } catch (e) { }
+        })
+</script>
 
   <header>
     <h1>Header</h1>
